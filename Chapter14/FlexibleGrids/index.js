@@ -12,7 +12,7 @@ import Box from './Box';
 const boxes = new Array(10)
   .fill(null)
   .map((v, i) => i + 1);
-//v,i as in passed element of any type and index arguments
+//v,i currentValue, index
 
 const FlexibleGrids = () => (
   <View style={styles.container}>
